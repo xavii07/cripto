@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --blanco:#ddd;
+    --titulo:'Sansita', sans-serif;
+    --texto:'Yusei Magic', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+body {
+    height: 100vh;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgba(36, 59, 85, 0.603), rgba(20, 30, 48, 0.705)), url(./img/pexels.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(36, 59, 85, 0.79), rgba(20, 30, 48, 0.99)), url(./img/pexels.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--texto);
+  }
+
+  input {
+    font-family: var(--texto);
+  }
+
+  h1, h2, h3, h4  {
+    color: var(--blanco);
+    font-family: var(--titulo);
+    padding: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  h1 {
+    font-size: 1.3rem;
+  }
+  
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    color:var(--blanco);
+    line-height: 1rem;
+    font-size: 0.9rem;
+  }
+
+  box-icon {
+    vertical-align: middle;
+  }
+
+  @media screen and (min-width:768px) {
+
+    body {
+      background: #141E30;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, rgba(36, 59, 85, 0.603), rgba(20, 30, 48, 0.705)), url(./img/pexels2.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, rgba(36, 59, 85, 0.99), rgba(20, 30, 48, 0.79)), url(./img/pexels2.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-repeat:no-repeat ;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    h2 {
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+  
+    h1 {
+      font-size: 2rem;
+    }
+    
+    h2 {
+      font-size: 1.6rem;
+    }
+   
+  }

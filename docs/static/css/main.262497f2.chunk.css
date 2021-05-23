@@ -1,0 +1,177 @@
+:root {
+    --blanco: #ddd;
+    --titulo: "Sansita", sans-serif;
+    --texto: "Yusei Magic", sans-serif
+}
+
+body {
+    height: 100vh;
+    background: #141e30;
+    background: linear-gradient(0deg, rgba(36, 59, 85, .79), rgba(20, 30, 48, .99)), url(../media/pexels.ac6112d7.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+body,
+input {
+    font-family: "Yusei Magic", sans-serif;
+    font-family: var(--texto)
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #ddd;
+    color: var(--blanco);
+    font-family: "Sansita", sans-serif;
+    font-family: var(--titulo);
+    padding: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+h1 {
+    font-size: 1.3rem
+}
+
+h2 {
+    font-size: 1.1rem
+}
+
+p {
+    color: #ddd;
+    color: var(--blanco);
+    line-height: 1rem;
+    font-size: .9rem
+}
+
+box-icon {
+    vertical-align: middle
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background: #141e30;
+        background: linear-gradient(0deg, rgba(36, 59, 85, .99), rgba(20, 30, 48, .79)), url(../media/pexels2.b9caab45.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover
+    }
+
+    h1 {
+        font-size: 1.8rem
+    }
+
+    h2 {
+        font-size: 1.4rem
+    }
+
+    p {
+        font-size: 1rem
+    }
+}
+
+@media screen and (min-width:992px) {
+    h1 {
+        font-size: 2rem
+    }
+
+    h2 {
+        font-size: 1.6rem
+    }
+}
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto
+}
+
+.sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #00ff7f;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s ease-in-out infinite;
+    animation: sk-cubeGridScaleDelay 1.3s ease-in-out infinite
+}
+
+.sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+.sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s
+}
+
+.sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s
+}
+
+.sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s
+}
+
+.sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+.sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s
+}
+
+.sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s
+}
+
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+
+    0%,
+    70%,
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1)
+    }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+
+    0%,
+    70%,
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1)
+    }
+}
+
+/*# sourceMappingURL=main.262497f2.chunk.css.map */
